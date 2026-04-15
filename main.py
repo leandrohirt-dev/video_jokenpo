@@ -24,7 +24,7 @@ else:
         print("EMPATE! Ninguém ganhou.")
     elif (escolha_jogador == "pedra" and escolha_computador == "tesoura") or \
         (escolha_jogador == "papel" and escolha_computador == "pedra") or \
-        (escolha_computador == "tesoura" and escolha_computador == "papel"):
+        (escolha_jogador == "tesoura" and escolha_computador == "papel"):
         print("VOCÊ VENCEU! PARABÉNS!")
     else:
         print("VOCÊ PERDEU! O computador ganhou.")
